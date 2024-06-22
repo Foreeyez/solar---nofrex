@@ -1,0 +1,101 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(596b580c6bacc9b1d0355c9769d9d53d.jpg) no-repeat fixed center;
+}
+
+.sun {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(232, 232, 223);
+  border-radius: 50%;
+  box-shadow: 0 0 50px 20px rgba(247, 159, 129, 0.5);
+  animation: spin 10s linear infinite;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.planet {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.mercury {
+  animation-duration: 5s;
+  top: 70%;
+  left: 25%;
+  background: url(2k_mercury.jpg) center no-repeat fixed;
+}
+
+.venus {
+  animation-duration: 8s;
+  top: 75%;
+  left: 30%;
+  width: 30px;
+  height: 30px;
+  background: url(2k_venus_surface.jpg) center no-repeat fixed;
+}
+
+.earth {
+  animation-duration: 12s;
+  top: 76%;
+  left: 35% ;
+  width: 30px;
+  height: 30px;
+  background: url(2k_earth_daymap.jpg) center no-repeat fixed;
+}
+
+.mars {
+  animation-duration: 18s;
+  top: 60%;
+  left: 40%;
+  width: 25px;
+  height: 25px;
+  background: url(2k_mars.jpg) center no-repeat fixed;
+}
+
+.jupiter {
+  animation-duration: 30s;
+  top: 70%;
+  left: 45%;
+  width: 50px;
+  height: 50px;
+  background: url(2k_jupiter.jpg) center no-repeat fixed;
+}
+
+.saturn {
+  animation-duration: 40s;
+  top: 50%;
+  left: 50%;
+  width: 35px;
+  height: 35px;
+  background: url(2k_saturn.jpg) center no-repeat fixed;
+}
+
+.uranus {
+  animation-duration: 50s;
+  top: 40%;
+  left: 55%;
+  width: 30px;
+  height: 30px;
+  background: url(2k_uranus.jpg) center no-repeat fixed;
+}
+
+.neptune {
+  animation-duration: 60s;
+  top: 20%;
+  left: 60%;
+  background: url(2k_neptune.jpg) center no-repeat fixed;
+}
+
+
